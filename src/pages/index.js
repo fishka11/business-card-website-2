@@ -1,5 +1,7 @@
-import React from "react"
+import React from 'react';
+import HomeTemplate from '../templates/homeTemplate';
+import '../styles/main.scss';
 
-export default function Home() {
-  return <div>Welcome to Gatsby!</div>
-}
+const Home = () => <HomeTemplate />;
+
+export default Home;
